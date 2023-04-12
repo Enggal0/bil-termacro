@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+#define MAX(a, b) ((a) > (b) ? (a) : (b)) // Macro untuk mencari nilai maksimum
+
+int main(){
+    int num1, num2;
+    cout << "Masukkan angka pertama: ";
+    cin >> num1;
+    cout << "Masukkan angka kedua: ";
+    cin >> num2;
+
+    int result = MAX(num1, num2); // Menggunakan macro MAX untuk mencari nilai terbesar
+
+    cout << "Bilangan terbesar adalah: " << result << endl;
+
+    return 0;
+}
